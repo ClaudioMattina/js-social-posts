@@ -81,7 +81,7 @@ posts.forEach((Element) => {
         </div>                    
     </div>
 </div>
-<div class="post__text">Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.</div>
+<div class="post__text">${Element.content}</div>
 <div class="post__image">
     <img src="${Element.media}" alt="">
 </div>
