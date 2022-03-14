@@ -73,11 +73,11 @@ posts.forEach((Element) => {
 <div class="post__header">
     <div class="post-meta">                    
         <div class="post-meta__icon">
-            <img class="profile-pic" src="https://unsplash.it/300/300?image=15" alt="Phil Mangione">                    
+            <img class="profile-pic" src="${Element.author.image}" alt="Phil Mangione">                    
         </div>
         <div class="post-meta__data">
-            <div class="post-meta__author">Phil Mangione</div>
-            <div class="post-meta__time">4 mesi fa</div>
+            <div class="post-meta__author">${Element.author.name}</div>
+            <div class="post-meta__time">${Element.created}</div>
         </div>                    
     </div>
 </div>
@@ -94,7 +94,7 @@ posts.forEach((Element) => {
             </a>
         </div>
         <div class="likes__counter">
-            Piace a <b id="like-counter-1" class="js-likes-counter">80</b> persone
+            Piace a <b id="like-counter-1" class="js-likes-counter">${Element.likes}</b> persone
         </div>
     </div> 
 </div>            
