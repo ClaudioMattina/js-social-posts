@@ -53,13 +53,128 @@ const posts = [
         },
         "likes": 95,
         "created": "2021-03-05"
+    },
+
+
+
+    {
+        "id": 3,
+        "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
+        "media": "https://unsplash.it/600/400?image=234",
+        "author": {
+            "name": "Chiara Passaro",
+            "image": "https://unsplash.it/300/300?image=20"
+        },
+        "likes": 78,
+        "created": "2021-05-15"
+    },
+    {
+        "id": 3,
+        "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
+        "media": "https://unsplash.it/600/400?image=234",
+        "author": {
+            "name": "Chiara Passaro",
+            "image": "https://unsplash.it/300/300?image=20"
+        },
+        "likes": 78,
+        "created": "2021-05-15"
+    },
+    {
+        "id": 3,
+        "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
+        "media": "https://unsplash.it/600/400?image=234",
+        "author": {
+            "name": "Chiara Passaro",
+            "image": "https://unsplash.it/300/300?image=20"
+        },
+        "likes": 78,
+        "created": "2021-05-15"
+    },
+    {
+        "id": 3,
+        "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
+        "media": "https://unsplash.it/600/400?image=234",
+        "author": {
+            "name": "Chiara Passaro",
+            "image": "https://unsplash.it/300/300?image=20"
+        },
+        "likes": 78,
+        "created": "2021-05-15"
+    },
+    {
+        "id": 3,
+        "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
+        "media": "https://unsplash.it/600/400?image=234",
+        "author": {
+            "name": "Chiara Passaro",
+            "image": "https://unsplash.it/300/300?image=20"
+        },
+        "likes": 78,
+        "created": "2021-05-15"
+    },
+    {
+        "id": 3,
+        "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
+        "media": "https://unsplash.it/600/400?image=234",
+        "author": {
+            "name": "Chiara Passaro",
+            "image": "https://unsplash.it/300/300?image=20"
+        },
+        "likes": 78,
+        "created": "2021-05-15"
+    },
+    {
+        "id": 3,
+        "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
+        "media": "https://unsplash.it/600/400?image=234",
+        "author": {
+            "name": "Chiara Passaro",
+            "image": "https://unsplash.it/300/300?image=20"
+        },
+        "likes": 78,
+        "created": "2021-05-15"
+    },
+    {
+        "id": 3,
+        "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
+        "media": "https://unsplash.it/600/400?image=234",
+        "author": {
+            "name": "Chiara Passaro",
+            "image": "https://unsplash.it/300/300?image=20"
+        },
+        "likes": 78,
+        "created": "2021-05-15"
+    },
+    {
+        "id": 3,
+        "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
+        "media": "https://unsplash.it/600/400?image=234",
+        "author": {
+            "name": "Chiara Passaro",
+            "image": "https://unsplash.it/300/300?image=20"
+        },
+        "likes": 78,
+        "created": "2021-05-15"
+    },
+    {
+        "id": 3,
+        "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
+        "media": "https://unsplash.it/600/400?image=234",
+        "author": {
+            "name": "Chiara Passaro",
+            "image": "https://unsplash.it/300/300?image=20"
+        },
+        "likes": 78,
+        "created": "2021-05-15"
     }
+    
 ];
 
 
 /* importo nel js il contenitore dei post */
 let postContainer = document.getElementById("container");
 
+let likeBtn = document.querySelector("div.likes__cta");
 
 
 
@@ -67,7 +182,7 @@ let postContainer = document.getElementById("container");
 posts.forEach((Element) => {
 
    
-
+    
 
      postContainer.innerHTML += ` <div class="post">
 <div class="post__header">
@@ -87,7 +202,7 @@ posts.forEach((Element) => {
 </div>
 <div class="post__footer">
     <div class="likes js-likes">
-        <div id="bottone" class="likes__cta">
+        <div class="likes__cta">
             <a class="like-button  js-like-button" href="#" data-postid="1">
                 <i class="like-button__icon fas fa-thumbs-up" aria-hidden="true"></i>
                 <span class="like-button__label">Mi Piace</span>
@@ -101,19 +216,16 @@ posts.forEach((Element) => {
 </div>
 `
 
-let likeBtn = document.getElementById("bottone");
 
-likeBtn.addEventListener("click", function(){
-    likeBtn.classList.toggle("piacente")
-})
 
 })
 
 
 
-
-
-
+/* likeBtn.addEventListener("click", function(){
+    likeBtn.classList.add("piacente")
+})
+ */
 
 
 
