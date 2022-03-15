@@ -60,9 +60,42 @@ const posts = [
     {
         "id": 3,
         "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
-        "media": "https://unsplash.it/600/400?image=234",
+        "media": "https://www.powned.it/wp-content/uploads/2019/09/Kaisa_0.jpg",
         "author": {
-            "name": "Chiara Passaro",
+            "name": "Kai'Sa",
+            "image": "https://i.imgur.com/XOmNCwY.jpg"
+        },
+        "likes": 78,
+        "created": "2021-05-15"
+    },
+    {
+        "id": 3,
+        "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
+        "media": "https://nexus.leagueoflegends.com/wp-content/uploads/2018/02/LOL_CMS_187_Article_01_pfnfowk4uu3iugnrxrn3.jpg",
+        "author": {
+            "name": "Illaoi Indottuvai",
+            "image": "https://cdn.shopify.com/s/files/1/1167/9424/products/IMG_6863_1200x.jpg?v=1611807691"
+        },
+        "likes": 78,
+        "created": "2021-05-15"
+    },
+    {
+        "id": 3,
+        "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
+        "media": "https://www.powned.it/wp-content/uploads/2015/12/league.png",
+        "author": {
+            "name": "Combriccola",
+            "image": "https://cdn.shopify.com/s/files/1/1167/9424/products/IMG_6854_1200x.jpg?v=1611807690"
+        },
+        "likes": 78,
+        "created": "2021-05-15"
+    },
+    {
+        "id": 3,
+        "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
+        "media": "https://s1.gaming-cdn.com/images/products/9456/orig/league-of-legends-pc-gioco-cover.jpg",
+        "author": {
+            "name": "Tiazia & Caio",
             "image": "https://unsplash.it/300/300?image=20"
         },
         "likes": 78,
@@ -71,9 +104,9 @@ const posts = [
     {
         "id": 3,
         "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
-        "media": "https://unsplash.it/600/400?image=234",
+        "media": "https://sm.ign.com/ign_it/screenshot/default/blob_61pr.jpg",
         "author": {
-            "name": "Chiara Passaro",
+            "name": "Viego Messo In Piego",
             "image": "https://unsplash.it/300/300?image=20"
         },
         "likes": 78,
@@ -82,9 +115,9 @@ const posts = [
     {
         "id": 3,
         "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
-        "media": "https://unsplash.it/600/400?image=234",
+        "media": "https://images.gnwcdn.com/2022/articles/2022-01-05-17-47/news-league-of-legends-campione-zeri-zaun-riot-1641404871247.jpg/EG11/resize/1200x-1/news-league-of-legends-campione-zeri-zaun-riot-1641404871247.jpg",
         "author": {
-            "name": "Chiara Passaro",
+            "name": "Zeri Schifo",
             "image": "https://unsplash.it/300/300?image=20"
         },
         "likes": 78,
@@ -93,9 +126,9 @@ const posts = [
     {
         "id": 3,
         "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
-        "media": "https://unsplash.it/600/400?image=234",
+        "media": "https://estnn.com/wp-content/uploads/2021/03/lollunaleo-763x450.jpg",
         "author": {
-            "name": "Chiara Passaro",
+            "name": "Leona Mattacchiona",
             "image": "https://unsplash.it/300/300?image=20"
         },
         "likes": 78,
@@ -104,9 +137,9 @@ const posts = [
     {
         "id": 3,
         "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
-        "media": "https://unsplash.it/600/400?image=234",
+        "media": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt1168636c3a93b9e9/5f52d5af95701623b75e6d1d/01_Banner_State_Of_Skins_Kindred_Splash.jpg",
         "author": {
-            "name": "Chiara Passaro",
+            "name": "Kindred Accattivante",
             "image": "https://unsplash.it/300/300?image=20"
         },
         "likes": 78,
@@ -115,9 +148,9 @@ const posts = [
     {
         "id": 3,
         "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
-        "media": "https://unsplash.it/600/400?image=234",
+        "media": "https://giocatoreperfetto.com/wp-content/uploads/2021/10/League-of-Legends-1121-Skin-Dragonmancer-in-arrivo-in-una.png",
         "author": {
-            "name": "Chiara Passaro",
+            "name": "Yasuo Puzzone",
             "image": "https://unsplash.it/300/300?image=20"
         },
         "likes": 78,
@@ -126,42 +159,9 @@ const posts = [
     {
         "id": 3,
         "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
-        "media": "https://unsplash.it/600/400?image=234",
+        "media": "https://i.ytimg.com/vi/r83uJUVAsXk/maxresdefault.jpg",
         "author": {
-            "name": "Chiara Passaro",
-            "image": "https://unsplash.it/300/300?image=20"
-        },
-        "likes": 78,
-        "created": "2021-05-15"
-    },
-    {
-        "id": 3,
-        "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
-        "media": "https://unsplash.it/600/400?image=234",
-        "author": {
-            "name": "Chiara Passaro",
-            "image": "https://unsplash.it/300/300?image=20"
-        },
-        "likes": 78,
-        "created": "2021-05-15"
-    },
-    {
-        "id": 3,
-        "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
-        "media": "https://unsplash.it/600/400?image=234",
-        "author": {
-            "name": "Chiara Passaro",
-            "image": "https://unsplash.it/300/300?image=20"
-        },
-        "likes": 78,
-        "created": "2021-05-15"
-    },
-    {
-        "id": 3,
-        "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
-        "media": "https://unsplash.it/600/400?image=234",
-        "author": {
-            "name": "Chiara Passaro",
+            "name": "Mitica Ashe",
             "image": "https://unsplash.it/300/300?image=20"
         },
         "likes": 78,
